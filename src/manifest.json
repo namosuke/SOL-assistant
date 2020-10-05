@@ -1,0 +1,20 @@
+{
+	"description": "SFC Online Learning System (SOL)の補助機能を提供します",
+	"name": "SOLアシスタント",
+	"manifest_version": 2,
+	"version": "0.0.1",
+	"content_scripts": [
+		{
+			"matches": [
+				"https://sol.sfc.keio.ac.jp/*"
+			],
+			"run_at": "document_end",
+			"js": [
+				"ext.js"
+			]
+		}
+	],
+	"permissions": [
+		"storage"
+	]
+}
