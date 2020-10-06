@@ -2,7 +2,7 @@
 	"description": "SFC Online Learning System (SOL)の補助機能を提供します",
 	"name": "SOLアシスタント",
 	"manifest_version": 2,
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"content_scripts": [
 		{
 			"matches": [
